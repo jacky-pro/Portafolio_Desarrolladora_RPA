@@ -21,6 +21,15 @@ export default function Footer() {
             <span>para la comunidad RPA</span>
           </div>
           
+          <div className="mt-3">
+            <a
+              href="mailto:jklnug08@gmail.com"
+              className="text-sm text-blue-300 hover:text-white underline-offset-4 hover:underline"
+            >
+              jklnuag08@gmail.com
+            </a>
+          </div>
+          
           <div className="mt-4 pt-4 border-t border-gray-700 dark:border-gray-700/60">
             <p className="text-xs text-gray-500 dark:text-gray-400">
               © 2025 Jackelin Nuñez Aguirre. Todos los derechos reservados.

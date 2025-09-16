@@ -11,8 +11,8 @@ function App() {
     if (typeof window === 'undefined') return 'light';
     const stored = localStorage.getItem('theme');
     if (stored === 'light' || stored === 'dark') return stored;
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return prefersDark ? 'dark' : 'light';
+    // Default to light when no stored theme exists
+    return 'light';
   });
 
   useEffect(() => {

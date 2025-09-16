@@ -37,7 +37,7 @@ export default function Contact() {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-violet-600 mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            ¿Tienes un proyecto de automatización en mente? ¡Hablemos!
+            ¿Buscas automatizar sin complicaciones? Te ayudo a pasar de idea a resultado.
           </p>
         </div>
 

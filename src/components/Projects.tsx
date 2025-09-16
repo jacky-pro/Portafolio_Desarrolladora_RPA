@@ -50,7 +50,7 @@ export default function Projects() {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-violet-600 mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Soluciones de automatización que optimizan procesos empresariales
+            Casos reales que reducen tiempo operativo y aumentan la calidad de datos
           </p>
         </div>
 

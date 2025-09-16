@@ -17,13 +17,13 @@ export default function About() {
               className="h-[150px] w-[150px] rounded-full object-cover shadow-xl ring-4 ring-white/60 dark:ring-white/10 mx-auto"
             />
             <p className="max-w-2xl text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              Soy ingeniera de sistemas apasionada por la automatización de procesos con{' '}
+              Soy ingeniera de sistemas <span className="font-semibold">con experiencia</span> diseñando y desplegando soluciones de automatización de extremo a extremo. Transformo procesos manuales en flujos confiables y medibles usando{' '}
               <span className="font-semibold text-blue-600 dark:text-blue-400">Power Automate</span> (cloud y desktop),{' '}
               <span className="font-semibold text-blue-600 dark:text-blue-400">SQL Server</span>,{' '}
               <span className="font-semibold text-blue-600 dark:text-blue-400">Power BI</span>,{' '}
               <span className="font-semibold text-blue-600 dark:text-blue-400">Excel</span> y{' '}
-              <span className="font-semibold text-blue-600 dark:text-blue-400">Python</span>. Me gusta optimizar tareas repetitivas
-              y compartir conocimiento con la comunidad tecnológica.
+              <span className="font-semibold text-blue-600 dark:text-blue-400">Python</span>.
+              Mi enfoque está en <span className="font-semibold">ahorrar tiempo</span>, <span className="font-semibold">reducir errores</span> y <span className="font-semibold">mostrar resultados con datos</span> en dashboards claros para el negocio.
             </p>
           </div>
         </div>

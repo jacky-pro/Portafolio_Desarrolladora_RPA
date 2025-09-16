@@ -26,7 +26,7 @@ export default function Header({ theme = 'light', onToggleTheme }: HeaderProps) 
           Jackelin Nuñez Aguirre
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 font-light">
-          Desarrolladora RPA | Power Automate Desktop| Automatización de Procesos
+          Especialista en automatización de procesos con Power Automate Desktop
         </p>
         <div className="mt-8 w-24 h-1 bg-white mx-auto rounded-full opacity-80"></div>
       </div>
