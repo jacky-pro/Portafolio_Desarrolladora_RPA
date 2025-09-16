@@ -3,8 +3,8 @@ import { FileText, Database, MessageSquare, ExternalLink, Github } from 'lucide-
 
 const projects = [
   {
-    title: 'Automatización de Reportes SUNAT',
-    description: 'Desarrollo de bot con Power Automate Desktop para la descarga y procesamiento automático de reportes SUNAT, reduciendo el tiempo de procesamiento en un 80%.',
+    title: 'Bot para Registro de Compras ',
+    description: 'Desarrollo de bot con Power Automate Desktop para la descarga y procesamiento automático de reportes , reduciendo el tiempo de procesamiento en un 80%.',
     tech: 'Power Automate Desktop',
     icon: FileText,
     color: 'from-blue-500 to-blue-600',
@@ -12,8 +12,8 @@ const projects = [
     link:'https://github.com/jacky-pro/Bot-RPA---Impuesto-Registro-de-Compras'
   },
   {
-    title: 'Bot de Registro de Tarjetas y Placas (SUNARP)',
-    description: 'Desarrollo de bot para registro en SUNARP, integrando facturación electrónica y Smartsheet. Automatización de validaciones, descargas/cargas de archivos y reportes.',
+    title: 'Bot para Gestión de Trámites Vehiculares',
+    description: 'Desarrollo de bot para registro , integrando facturación electrónica y Smartsheet. Automatización de validaciones, descargas/cargas de archivos y reportes.',
     tech: 'Power Automate Desktop + Dynamics+ Python',
     icon: Database,
     color: 'from-violet-500 to-violet-600',
@@ -21,7 +21,7 @@ const projects = [
     link:'https://github.com/jacky-pro/Bot-de-Registro-de-Tarjetas-y-Placas-SUNARP-'
   },
   {
-    title: 'Bot Portal de Proveedores – Socio Referido (Dynamics 365)',
+    title: 'Bot para Gestión de Proveedores y Socios',
     description: 'Bot RPA que valida y registra socios referidos en Dynamics 365, incluyendo creación de cuentas bancarias flujos de aprobación digital. Integración con portal de proveedores y cumplimiento con normativas de protección de datos personales.',
     tech: 'Power Automate Cloud+API',
     icon: MessageSquare,
