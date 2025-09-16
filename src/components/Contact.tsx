@@ -18,10 +18,14 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aquí podrías integrar con un servicio de email
-    console.log('Formulario enviado:', formData);
-    alert('Mensaje enviado. Te contactaré pronto!');
-    setFormData({ nombre: '', email: '', mensaje: '' });
+  };
+
+  const sendMail = () => {
+    const to = 'jklnuag08@gmail.com';
+    const subject = `Contacto de ${formData.nombre || 'Sin nombre'}`;
+    const body = `Nombre: ${formData.nombre}\nEmail: ${formData.email}\n\nMensaje:\n${formData.mensaje}`;
+    const href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = href;
   };
 
   return (
@@ -63,7 +67,7 @@ export default function Contact() {
               href="https://github.com/jacky-pro/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group"
+              className="flex items-center p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duración-300 transform hover:-translate-y-1 group"
             >
               <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-full mr-4 group-hover:bg-gray-200 dark:group-hover:bg-gray-600 transition-colors">
                 <Github className="w-8 h-8 text-gray-800 dark:text-gray-200" />
@@ -165,7 +169,8 @@ export default function Contact() {
               </div>
 
               <button
-                type="submit"
+                type="button"
+                onClick={sendMail}
                 className="w-full bg-gradient-to-r from-blue-600 to-violet-600 text-white py-4 px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-violet-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center shadow-lg hover:shadow-xl"
               >
                 <Send className="w-5 h-5 mr-2" />
